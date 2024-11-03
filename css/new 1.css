@@ -1,0 +1,31 @@
+
+.container-columns {
+    display: flex;
+    flex-wrap: wrap; /* Allows columns to wrap if there is not enough space */
+    gap: 20px; /* Space between columns */
+}
+
+.column {
+    flex: 1 1 calc(33.333% - 20px); /* Adjust width to fit three columns per row, accounting for gap */
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between items within the column */
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between image and text within the item */
+}
+
+.img-fluid {
+    max-width: 100%; /* Ensures images do not exceed the width of their container */
+    height: auto; /* Maintains aspect ratio */
+}
+
+/* Ensure columns are stretched to the same height */
+.modal-body {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap if necessary */
+    gap: 20px; /* Space between items in the modal body */
+}

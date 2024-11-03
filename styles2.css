@@ -1,0 +1,15 @@
+/* CSS Document */
+
+.lani-fix-nav, .masthead-fix {
+	background: hsla(0, 0%, 30%, 0.6);
+	padding: 10px;
+	border-radius: 20px;
+}
+
+.companylogo {
+	padding: 20px;
+}
+.companylogo img {
+	width: 10%;
+	display: none:
+}
