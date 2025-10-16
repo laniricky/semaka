@@ -1,83 +1,109 @@
 # 🌐 Semaka
 
-**Semaka** is a lightweight and modular web project built with **HTML**, **CSS**, **JavaScript**, and **PHP**.  
-It serves as a clean foundation for experimenting with front-end layouts, UI components, and PHP-based templates.
+Semaka is a lightweight, modular web starter built with HTML, CSS, JavaScript and PHP — ideal for prototyping front-end layouts and simple PHP templates.
 
-> ✨ Ideal for developers exploring simple PHP frontends or building prototypes quickly.
+> ✨ Great for developers exploring small PHP frontends or building quick prototypes.
+
+---
+
+## Table of contents
+
+- [Features](#-features)
+- [Demo / Screenshots](#-demo--screenshots)
+- [Requirements](#-requirements)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Project structure](#-project-structure)
+- [Key files](#-key-files)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Author](#-author)
 
 ---
 
 ## 🧩 Features
 
-- 🪶 Minimal and clean design  
-- ⚙️ PHP + HTML modular structure  
-- 🧱 Includes reusable components (like `modals.php`)  
-- 🎨 Multiple demo pages for layout testing  
-- 📁 Organized assets (`/assets/css`, `/assets/js`)  
-- 💻 Easily hosted on XAMPP, WAMP, or any Apache server  
+- Minimal, clean layout and styles  
+- Modular PHP + HTML structure for easy component reuse  
+- Reusable components included (e.g. `modals.php`)  
+- Several demo pages for layout testing and experimentation  
+- Organized assets folder (`assets/css`, `assets/js`)  
+- Easy to host locally using XAMPP, WAMP, MAMP, or PHP’s built-in server
 
 ---
 
 ## 🖼️ Demo / Screenshots
 
-*(You can add screenshots or UI previews here — for example, screenshots of your main page or components.)*
+Add screenshots or UI previews here (recommended: `assets/screenshots/`) to show the main page, components, and examples.
 
 ---
 
 ## 🧰 Requirements
 
-Before running Semaka, ensure you have the following:
-
-- **PHP 7.4+**  
-- **Apache** (included with XAMPP, WAMP, or MAMP)  
-- **Web browser** (Chrome, Edge, Firefox, etc.)  
+- PHP 7.4+  
+- Apache (or use PHP’s built-in server for local testing)  
+- A modern web browser (Chrome, Edge, Firefox, Safari)
 
 ---
 
 ## ⚙️ Installation
 
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/laniricky/semaka.git
-   cd semaka
-Move to Web Directory
-Place the project inside your server’s root folder:
+1. Clone the repository:
+```bash
+git clone https://github.com/laniricky/semaka.git
+cd semaka
+```
 
-For XAMPP → C:\xampp\htdocs\semaka
+2. Move the project to your web server directory:
 
-For WAMP → C:\wamp64\www\semaka
+- XAMPP (Windows)
+```text
+C:\xampp\htdocs\semaka
+```
 
-Run the Server
-Start Apache (and PHP) via your control panel, or use PHP’s built-in server:
+- WAMP (Windows)
+```text
+C:\wamp64\www\semaka
+```
 
-bash
-Copy code
+- MAMP (macOS)
+Place in the MAMP web directory (e.g., `/Applications/MAMP/htdocs/semaka`)
+
+3. Start the server
+
+- Using XAMPP/WAMP/MAMP: start Apache from the control panel.  
+- Or use PHP’s built-in server for quick testing:
+```bash
 php -S localhost:8000
-Open in Browser
-Visit:
+```
 
-arduino
-Copy code
+4. Open in your browser
+
+- If using XAMPP/WAMP/MAMP:
+```
 http://localhost/semaka/
-or if using PHP’s server:
+```
 
-arduino
-Copy code
+- If using PHP built-in server:
+```
 http://localhost:8000
-🚀 Usage
-Open index.php or index.html to view the main interface.
+```
 
-Modify or create new templates using PHP or HTML.
+---
 
-Add your own styles in assets/css/ or scripts in assets/js/.
+## 🚀 Usage
 
-The modals.php file contains reusable modal templates.
+- Open `index.php` or `index.html` to view the main interface.  
+- Create or modify templates with PHP/HTML.  
+- Add styles to `assets/css/` and scripts to `assets/js/`.  
+- `modals.php` contains reusable modal templates.  
+- Try the demo files `trial attributes.html` and `arrange vertically.html` for layout experiments.
 
-You can use trial attributes.html and arrange vertically.html for layout experimentation.
+---
 
-🗂️ Project Structure
-pgsql
-Copy code
+## 🗂️ Project structure
+
+```
 semaka/
 ├── assets/
 │   ├── css/
@@ -89,71 +115,61 @@ semaka/
 ├── styles2.css
 ├── trial attributes.html
 └── README.md
-Key Files:
+```
 
-index.html – Main webpage
+---
 
-modals.php – Reusable modal component
+## 🔑 Key files
 
-assets/css/ – Stylesheets
+- `index.html` — main demo page  
+- `modals.php` — reusable modal components (PHP)  
+- `assets/css/` — stylesheets (place custom CSS here)  
+- `assets/js/` — JavaScript files (place scripts here)  
+- `styles2.css` — additional styles used in demos
 
-assets/js/ – Scripts
+---
 
-styles2.css – Additional styling file
+## 🤝 Contributing
 
-🤝 Contributing
-Contributions are welcome!
-You can help improve Semaka by:
+Contributions are welcome! Suggestions include reporting issues, proposing UI ideas, cleaning or improving code, and adding demos.
 
-Reporting issues or bugs
+Suggested workflow:
 
-Suggesting new UI ideas
-
-Improving or cleaning the code
-
-Adding new demos or templates
-
-Steps:
-
-Fork this repository
-
-Create a new branch
-
-bash
-Copy code
+1. Fork the repo  
+2. Create a new branch:
+```bash
 git checkout -b feature/YourFeature
-Commit your changes
-
-bash
-Copy code
+```
+3. Commit your changes:
+```bash
 git commit -m "Add feature: YourFeature"
-Push to your branch
-
-bash
-Copy code
+```
+4. Push to your branch:
+```bash
 git push origin feature/YourFeature
-Open a Pull Request
+```
+5. Open a Pull Request
 
-🪪 License
-This project is licensed under the Apache License 2.0.
+Please include a short description and screenshots when applicable.
 
-pgsql
-Copy code
+---
+
+## 🪪 License
+
 Copyright 2025 Lani Ricky
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License.  
+You may obtain a copy of the License at:
 
-   http://www.apache.org/licenses/LICENSE-2.0
+http://www.apache.org/licenses/LICENSE-2.0
 
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-🧭 Author
-Lani Ricky
-📧 lani@mtaanimation.com
-📞 +254716621218
-🏷️ Brand: MTAANIMATION
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND.
+
+---
+
+## 🧭 Author
+
+Lani Ricky  
+Email: lani@mtaanimation.com  
+Phone: +254 716 621 218  
+Brand: MTAANIMATION
